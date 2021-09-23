@@ -1,4 +1,4 @@
-let socket = io.connect("http://localhost:5000");
+let socket = io.connect("http://localhost:5000") || io.connect("https://cryptic-bastion-28269.herokuapp.com/");
 
 let message = document.getElementById("message");
 let output = document.getElementById("output");
