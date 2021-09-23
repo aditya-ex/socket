@@ -1,5 +1,5 @@
-let socket = io.connect("http://localhost:5000") || io.connect("https://cryptic-bastion-28269.herokuapp.com/");
-
+let socket =  io.connect("https://cryptic-bastion-28269.herokuapp.com/");
+// io.connect("http://localhost:5000") ||
 let message = document.getElementById("message");
 let output = document.getElementById("output");
 let btn = document.getElementById("send");
